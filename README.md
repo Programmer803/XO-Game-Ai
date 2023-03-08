@@ -22,4 +22,5 @@ You have to select one of the houses and then type the number of that house and 
  7  | 8 | 9
 ```
 You are 'O'
-
+ <hr>
+ Thank you :)
