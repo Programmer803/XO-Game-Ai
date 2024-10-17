@@ -3,8 +3,8 @@ import os
 
 
 
-# Graghic Function
-def grahic(list_xo):
+# Graphic Function
+def graphic(list_xo):
     xo = list_xo
     
     
@@ -203,17 +203,17 @@ class game:
             
             if self.borad[int(ox[0])-1] == self.ai and self.borad[int(ox[1])-1] == self.ai and self.borad[int(ox[2])-1] == self.ai:
                 print(f"&&&&&&&&&&& Ai Win &&&&&&&&&&&&")
-                grahic(self.borad)
+                graphic(self.borad)
                 input()
 
             elif self.borad[int(ox[0])-1] == self.p and self.borad[int(ox[1])-1] == self.p and self.borad[int(ox[2])-1] == self.p :
                 print(f"&&&&&&&&&&& You Win &&&&&&&&&&&&")
-                grahic(self.borad)
+                graphic(self.borad)
                 input()
                 
             elif self.borad.count("X") + self.borad.count("O") == 9:
                 print(f"&&&&&&&&&&& Draw &&&&&&&&&&&&")
-                grahic(self.borad)
+                graphic(self.borad)
                 input()               
 
 
